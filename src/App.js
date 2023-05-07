@@ -8,6 +8,8 @@ import Stats from './components/Stats';
 import Footer from './components/Footer';
 import Products from './components/Products';
 import 'aos/dist/aos.css';
+import Contactus from './components/Contactus';
+import Features from './components/Features';
 export default function App()
 {
   return(
@@ -17,7 +19,9 @@ export default function App()
   <About/>
 
   <Stats/>
+  <Features/>
   <Products/>
+  <Contactus/>
   <Footer/>
   </>
   )

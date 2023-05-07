@@ -8,7 +8,9 @@ export default function Footer()
           <div class="col-md-3">
             <h4>Useful Links</h4>
            <ul class="list-unstyled">
+            <li>Home</li>
             <li>About us</li>
+            <li>Features</li>
             <li>Books</li>
             <li>Contact us</li>
            </ul>
@@ -16,17 +18,18 @@ export default function Footer()
           <div class="col-md-3">
             <h4>Contact Us</h4>
             <ul class="list-unstyled">
-              <li>Phone: (123) 456-7890</li>
-              <li>Email: info@example.com</li>
-              <li>Address: 123 Main St, Anytown USA</li>
+              <li>Phone:+91 7648964359</li>
+              <li>Email: devrev@gmail.com</li>
+              <li>Address: MG Road,Bangalore</li>
             </ul>
           </div>
           <div class="col-md-3">
-            <h4>Contact Us</h4>
+            <h4>Locations</h4>
             <ul class="list-unstyled">
-              <li>Phone: (123) 456-7890</li>
-              <li>Email: info@example.com</li>
-              <li>Address: 123 Main St, Anytown USA</li>
+              <li>Chennai</li>
+              <li>Coimbatore</li>
+              <li>Bangalore</li>
+              <li>Cochin</li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -35,6 +38,7 @@ export default function Footer()
               <li><a href="#"><i class="fab fa-facebook fa-lg"></i> Facebook</a></li>
               <li><a href="#"><i class="fab fa-twitter fa-lg"></i> Twitter</a></li>
               <li><a href="#"><i class="fab fa-instagram fa-lg"></i> Instagram</a></li>
+              <li><a href="#"><i class="fab fa-linkedin fa-lg"></i>Linked-in</a></li>
             </ul>
           </div>
         </div>

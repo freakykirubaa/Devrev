@@ -6,21 +6,22 @@ export default function About()
 <section class="container my-5" id="about">
         <div class="row">
           <div class="col-md-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-            <h2>About Our Company</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus dapibus velit, sit amet consequat eros molestie eget. Nulla nec eros vestibulum, ultricies nulla a, vehicula elit.</p>
+            <h2>About Us</h2>
+            <p>Library management is a sub-discipline of institutional management that focuses on specific issues faced by libraries and library management professionals.</p>
             
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                It encompasses normal managerial tasks, as well as intellectual freedom and fundraising responsibilities.
                 </p>
                 <ul>
-                  <li><i></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                  <li><i></i>This system completely automates all your library’s activities. </li>
+                  <li><i></i>The best way to maintain, organize, and handle countless books systematically is to implement a library management system software.</li>
+                  <li><i></i>A library management system is used to maintain library records. </li>
                 </ul>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                You can find books in an instant, issue/reissue books quickly, and manage all the data efficiently and orderly using this system.
+                The purpose of a library management system is to provide instant and accurate data regarding any type of book, thereby saving a lot of time and effort.
+
+
                 </p>
           </div>
           <div class="col-md-6" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">

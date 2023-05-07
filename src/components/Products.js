@@ -7,34 +7,189 @@ export default function Products()
 
 
     var books = [
-        {title:"Tragedy of Macbeth",author:"William Shakespeare",subject:"tragedy",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Death on the Nile",author:"Agatha Christie",subject:"tragedy",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Harry Potter & deathly hallons",author:"J. K. Rowling",subject:"Magic",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Tragedy of Prince ",author:"William Shakespeare",subject:"tragedy",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Avengers",author:"Jason Aaron",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1626278664285-f796b9ee7806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" },
-        {title:"Harry Potter & deathly hallons",author:"J. K. Rowling",subject:"Magic",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Murder of Roger",author:"Agatha Christie",subject:"crime",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Tragedy of Prince  ",author:"William Shakespeare",subject:"crime",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Captain America",author:"Stan Lee",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Amazing Spiderman",author:"Stan Lee",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Harry Potter & Prisoner",author:"J. K. Rowling",subject:"Magic",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Harry Potter & Prisoner",author:"J. K. Rowling",subject:"Magic",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Shazam",author:"Geoff Johns",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Shazam",author:"Geoff Johns",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Thor",author:"Jason Aaron",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1613331455414-1e9258b4b422?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" },
-        {title:"Avengers",author:"Jason Aaron",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1620336655052-b57986f5a26a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" },
-        {title:"Guardians of the galaxy",author:"Brian Micheal Bendis",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Ultimate spiderman",author:"Brian Micheal Bendis",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Fantastic Four",author:"Johnathan Hickman",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Fantastic Four",author:"Johnathan Hickman",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Superman",author:"Jerry Siegel",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Smallville",author:"Jerry Siegel",subject:"tragedy",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Doctor Strange",author:"Stan Lee",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
-        {title:"Doctor Strange",author:"Stan Lee",subject:"superpower",publishDate:"12345",image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" },
+        {title:"Tragedy of Macbeth",
+        author:"William Shakespeare",
+        subject:"tragedy",
+        publishDate:"Feb 1 2002",
+        image:"https://images.unsplash.com/photo-1529167182942-894f5ff43f34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      },
+
+
+
+        {title:"Death on the Nile",
+        author:"Agatha Christie",
+        subject:"tragedy",
+        publishDate:"Feb 1 2002",
+        image:"https://images.unsplash.com/photo-1476370648495-3533f64427a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+       },
+
+
+        {title:"Harry Potter & deathly hallons",
+        author:"J. K. Rowling",
+        subject:"Magic",
+        publishDate:"April 12 2005",
+        image:"https://images.unsplash.com/photo-1608662255987-d9e899969bfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1099&q=80" 
+      },
+
+        {title:"Tragedy of Prince ",
+        author:"William Shakespeare",
+        subject:"tragedy",
+        publishDate:"Feb 1 2002",
+        image:"https://images.unsplash.com/photo-1553782749-5ab8693a5f4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1078&q=80"
+       },
+
+
+        {title:"Avengers",
+        author:"Jason Aaron",
+        subject:"superpower",
+        publishDate:"March 3 2014",
+        image:"https://images.unsplash.com/photo-1626278664285-f796b9ee7806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+       },
+
+
+        {title:"Harry Potter & deathly hallons",
+        author:"J. K. Rowling",
+        subject:"Magic",
+        publishDate:"April 12 2005",
+        image:"https://images.unsplash.com/photo-1611676279444-5577698aa13c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" 
+      },
+
+
+        {title:"Murder of Roger",
+        author:"Agatha Christie",
+        subject:"crime",
+        publishDate:"May 1 1989",
+        image:"https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" 
+      },
+
+
+        {title:"Tragedy of Prince",
+        author:"William Shakespeare",
+        subject:"crime",
+        publishDate:"Feb 1 2002",
+        image:"https://images.unsplash.com/photo-1632743050362-0c61a1ad2462?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+      },
+
+
+        {title:"Captain America",
+        author:"Stan Lee",
+        subject:"superpower",
+        publishDate:"March 3 2014",
+        image:"https://images.unsplash.com/photo-1613330916855-d27dbb9f5500?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
+      },
+
+
+        {title:"Amazing Spiderman",
+        author:"Stan Lee",
+        subject:"superpower",
+        publishDate:"August 13 2009",
+        image:"https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+      },
+
+
+        {title:"Harry Potter & Prisoner"
+        ,author:"J. K. Rowling",
+        subject:"Magic",
+        publishDate:"Feb 1 2002",
+        image:"https://images.unsplash.com/photo-1618944847828-82e943c3bdb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+      },
+
+
+        {title:"Harry Potter & Prisoner",
+        author:"J. K. Rowling",
+        subject:"Magic",
+        publishDate:"Feb 1 2002",
+        image:"https://images.unsplash.com/photo-1618944913480-b67ee16d7b77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+      },
+
+
+        {title:"Shazam",
+        author:"Geoff Johns",
+        subject:"superpower",
+        publishDate:"May 21 2020",
+        image:"https://images.unsplash.com/photo-1658070845252-8de7cfb53652?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+      },
+
+
+       
+
+
+        {title:"Thor",
+        author:"Jason Aaron",
+        subject:"superpower",
+        publishDate:"March 3 2014",
+        image:"https://images.unsplash.com/photo-1613331455414-1e9258b4b422?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" 
+      },
+
+
+        {title:"Avengers",
+        author:"Jason Aaron",
+        subject:"superpower",
+        publishDate:"August 13 2009",
+        image:"https://images.unsplash.com/photo-1620336655052-b57986f5a26a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" 
+      },
+
+
+      
+        {title:"Guardians of the galaxy",
+        author:"Brian Micheal Bendis",
+        subject:"superpower",
+        publishDate:"March 3 2014",
+        image:"https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+      },
+
+        {title:"Ultimate spiderman",
+        author:"Brian Micheal Bendis",
+        subject:"superpower",
+        publishDate:"August 3 2009",
+        image:"https://images.unsplash.com/photo-1521714161819-15534968fc5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+      },
+
+
+
+        {title:"Fantastic Four",
+        author:"Johnathan Hickman",
+        subject:"superpower",
+        publishDate:"March 3 2014",
+        image:"https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/07/24/1068868-fantastic-four-2024-mcu.png?im=Resize=(1280,720)" 
+      },
+
+
+        {title:"Superman",
+        author:"Jerry Siegel",
+        subject:"superpower",
+        publishDate:"August 3 2009",
+        image:"https://images.unsplash.com/photo-1594344041337-0223bd103abe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+       },
+
+
+        {title:"Smallville",
+        author:"Jerry Siegel",
+        subject:"tragedy",
+        publishDate:"Feb 1 2002",
+        image:"https://images.unsplash.com/photo-1612620486050-1462932b56e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1145&q=80"
+       },
+
+
+        {title:"Hulk",
+        author:"Stan Lee",
+        subject:"superpower",
+        publishDate:"December 9 2016",
+        image:"https://images.unsplash.com/photo-1562613531-a131faf45335?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+       },
+
+
+        {title:"Hulk",
+        author:"Stan Lee",
+        subject:"superpower",
+        publishDate:"December 9 2016",
+        image:"https://images.unsplash.com/photo-1608272841063-67f50df421c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" },
       ];
     
-      const count=books.length;
+      
 
+      
+      const[count,setCount]=useState(books.length)
 
     const [currentPage, setCurrentPage] = useState(1);
     const [currentBook, setCurrentBook] = useState([]);
@@ -43,10 +198,10 @@ export default function Products()
 
     const numberOfProductsPerPage = 6;
     let PageSize = count/numberOfProductsPerPage;
-
     const [filter , setFilter] = useState(false)
     const [filtername,setFiltername] = useState(0);
     const [filterdata,setFilterData] = useState([]);
+   
     
 
     useEffect(() => {
@@ -59,6 +214,10 @@ export default function Products()
 
         pagechange();
         filterchange();
+
+        if(filterdata.length!=0){
+        setCount(searchedBooks.length)
+        }
       }, [currentPage,filtername,searchedBooks]);
     
 
@@ -99,12 +258,10 @@ export default function Products()
                         case 4:
                             setFilterData([...new Set(books.map(item=>item.publishDate))]);
                             break;
-
-
                 
             
-                default:
-                    break;
+                      default:
+                          break;
             }
       }
     
@@ -142,21 +299,31 @@ export default function Products()
                                     return book.subject === target;  
                                 }) )
                                 break;
+
+                                
+                            case 4:
+                              setsearchedBooks( books.filter(function (book) {
+                                  return book.publishDate === target;  
+                              }) )
+                              break;
                         
                 }
 
       
 
       }
+      const total=books.length
 
     return(
         <div class="container">
-            
+              <h2 className="mt-5">Our Books</h2>
         <div class="row">
           
           <div class="col-md-9">
-            <h2>Books</h2>
-            <h3>Total count of books:{count}</h3>
+          
+            <h5>Total no.of books: {total}</h5>
+            <h5>Count by filter: {count}</h5>
+
           </div>
 
             
@@ -172,8 +339,8 @@ export default function Products()
                         setFiltername(0)
                         } 
                         }>X</button>
-                    <div class="btn filter row" role="group">
-                    <button onClick={()=>setFiltername(1)} class="btn btn-light">Author</button>
+                    <div className="btn filter row" role="group" id="filter">
+                    <button onClick={()=>setFiltername(1)} class="btn btn-light" type="button">Author</button>
                     <button onClick={()=>setFiltername(2)} class="btn btn-light ">Title</button>
                     <button onClick={()=>setFiltername(3)} class="btn btn-light">Subject</button>
                     <button onClick={()=>setFiltername(4)} class="btn btn-light">Publish date</button>
@@ -181,19 +348,20 @@ export default function Products()
                 </div>
                 )}
             </div>
-            <div className="d-flex justify-content-end ">
+            <div class="hello">
                 {
 
                     (filterdata != null && filtername!=0)? filterdata.map( (singleFilter) => {
-                        return <button
-                        className="btn ml-2 btn-dark btn-sm"
+                        return<div class=""> <button
+                        type="button" class="btn btn-dark"
+                        id="filter-data"
                         key={singleFilter}
                         onClick={ ()=>{search(
                             singleFilter
                         )} }
                       >
                         {singleFilter}
-                      </button>
+                      </button></div>
                     }) :<></>
                 }
             </div>
@@ -206,13 +374,13 @@ export default function Products()
 
                             return(
                                 <div key={index} class="col-md-4" style={{padding:'1rem'}}>
-                                <div class="card" data-aos-delay="100" data-aos-duration="2000">
+                                <div class="card" data-aos="fade-down">
                                   <img class="card-img-top" src={book.image}></img>
                                   <div class="card-body">
-                                    <div class="card-title" id="title">{book.title}</div>
-                                    <div class="card-text" id="description">{book.author}</div>
-                                    <div class="card-text" id="description">{book.subject}</div>
-                                    <div class="card-text" id="description">{book.publishDate}</div>
+                                    <div class="card-title" id="title">Title: {book.title}</div>
+                                    <div class="card-text" id="description">Author: {book.author}</div>
+                                    <div class="card-text" id="description">Subject: {book.subject}</div>
+                                    <div class="card-text" id="description">PublishDate: {book.publishDate}</div>
                                   </div>
                                 </div>
                               </div> 
@@ -272,4 +440,7 @@ export default function Products()
     
     );
             }
+
+
+            
         

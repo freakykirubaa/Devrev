@@ -19,7 +19,7 @@ export default function Stats()
     
               <div class="col-lg-3 col-md-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+           
                   <h2 class="text-light">24</h2>
                   <p>Hours</p>
                 </div>
@@ -27,7 +27,7 @@ export default function Stats()
     
               <div class="col-lg-3 col-md-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+                  
                   <h2 class="text-light">50+</h2>
                   <p>Workers</p>
                 </div>
@@ -35,7 +35,7 @@ export default function Stats()
     
               <div class="col-lg-3 col-md-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+                  
                   <h2 class="text-light">10+</h2>
                   <p>Locations</p>
                 </div>
