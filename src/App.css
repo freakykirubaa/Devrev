@@ -36,3 +36,123 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+*{
+  overflow-x:hidden ;
+}
+
+
+#home{
+ background-color: #e6e6e8;
+}
+
+.about .about-img {
+  min-height: 500px;
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 30px;
+
+}
+
+.about .call-us {
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+}
+
+.about .call-us h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+ 
+}
+
+.about .call-us p {
+  font-size: 28px;
+  font-weight: 700;
+
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+}
+
+.about .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+ 
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+.stats-counter {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/jez-timms-8muUTAmcWU4-unsplash.jpg") center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+@media (min-width: 1365px) {
+  .stats-counter {
+    background-attachment: fixed;
+  }
+}
+
+.stats-counter .stats-item {
+  padding: 30px;
+  width: 100%;
+}
+
+.stats-counter .stats-item span {
+  font-size: 48px;
+  display: block;
+  color: #fff;
+  font-weight: 700;
+}
+
+.stats-counter .stats-item p {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+.card{
+  
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filter{
+  display: flex;
+  gap: 5px;
+ align-content: space-between;
+justify-content: space-around; 
+}
