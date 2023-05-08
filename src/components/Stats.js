@@ -5,7 +5,7 @@ export default function Stats()
 {
     return(
         
-        <section id="stats-counter" class="stats-counter">
+        <section id="stats" class="stats-counter">
           <div class="container" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
     
             <div class="row gy-4">

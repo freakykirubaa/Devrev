@@ -229,6 +229,13 @@ iframe{
   transition: 0.3s;
 }
 
+
+.search-button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .featured-services .service-item .description {
   font-size: 15px;
   color: #132848;

@@ -193,22 +193,23 @@ export default function Products()
 
     const [currentPage, setCurrentPage] = useState(1);
     const [currentBook, setCurrentBook] = useState([]);
-
+    const[allbooks,setAllBooks]=useState(books);
     const[searchedBooks,setsearchedBooks]=useState();
-
+   
     const numberOfProductsPerPage = 6;
-    let PageSize = count/numberOfProductsPerPage;
+    let PageSize = Math.round(count/numberOfProductsPerPage);
     const [filter , setFilter] = useState(false)
     const [filtername,setFiltername] = useState(0);
     const [filterdata,setFilterData] = useState([]);
    
-    
+
+
+    console.log(allbooks)
 
     useEffect(() => {
         AOS.init({
           duration: 2000, // Set the animation duration (in ms)
           easing: 'ease-in-out', // Set the animation easing
-
 
         });
 
@@ -313,9 +314,9 @@ export default function Products()
 
       }
       const total=books.length
-
+      
     return(
-        <div class="container">
+        <div class="container" id="products">
               <h2 className="mt-5">Our Books</h2>
         <div class="row">
           
@@ -325,6 +326,13 @@ export default function Products()
             <h5>Count by filter: {count}</h5>
 
           </div>
+        
+
+    <div>
+      
+     
+    </div>
+  
 
             
 
@@ -347,11 +355,12 @@ export default function Products()
                     </div> 
                 </div>
                 )}
+                
             </div>
             <div class="hello">
-                {
+ 
 
-                    (filterdata != null && filtername!=0)? filterdata.map( (singleFilter) => {
+                  {  (filterdata != null && filtername!=0)? filterdata.map( (singleFilter) => {
                         return<div class=""> <button
                         type="button" class="btn btn-dark"
                         id="filter-data"
@@ -363,14 +372,15 @@ export default function Products()
                         {singleFilter}
                       </button></div>
                     }) :<></>
-                }
+                  }
+                
             </div>
           </div>
 
               <div class="container">
                 <div class="row">
-                    {
-                        (currentBook != null)?currentBook.map( (book,index)=>{
+                   {
+                         (currentBook != null)?currentBook.map( (book,index)=>{
 
                             return(
                                 <div key={index} class="col-md-4" style={{padding:'1rem'}}>
@@ -386,7 +396,8 @@ export default function Products()
                               </div> 
                             )
                         } ):<></>
-                    }
+                      }
+                    
                 {
                     <div>
                          {
