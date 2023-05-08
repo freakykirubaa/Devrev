@@ -8,11 +8,13 @@ export default function Footer()
           <div class="col-md-3">
             <h4>Useful Links</h4>
            <ul class="list-unstyled">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Features</li>
-            <li>Books</li>
-            <li>Contact us</li>
+            <a href="#">
+            <li>Home</li></a>
+            <a href='#about'>
+            <li>About us</li></a>
+            <a href="#features"><li>Features</li></a>
+           <a href="#books"><li>Books</li></a>
+            <a href="#contact"><li>Contact us</li></a>
            </ul>
           </div>
           <div class="col-md-3">

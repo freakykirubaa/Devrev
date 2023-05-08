@@ -196,7 +196,7 @@ export default function Products()
     const[allbooks,setAllBooks]=useState(books);
     const[searchedBooks,setsearchedBooks]=useState();
    
-    const numberOfProductsPerPage = 6;
+    const numberOfProductsPerPage = 10;
     let PageSize = Math.round(count/numberOfProductsPerPage);
     const [filter , setFilter] = useState(false)
     const [filtername,setFiltername] = useState(0);
