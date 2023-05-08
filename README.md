@@ -7,6 +7,17 @@ npm start
 ### Technologies used
 
 ReactJs
+Bootstrap
+
+
+### Pages
+Home.js
+About.js
+Features.js
+Stats.js
+Products.js
+Contact.js
+
 
 ### Description
 
