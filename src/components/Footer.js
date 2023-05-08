@@ -13,7 +13,7 @@ export default function Footer()
             <a href='#about'>
             <li>About us</li></a>
             <a href="#features"><li>Features</li></a>
-           <a href="#books"><li>Books</li></a>
+           <a href="#products"><li>Books</li></a>
             <a href="#contact"><li>Contact us</li></a>
            </ul>
           </div>
